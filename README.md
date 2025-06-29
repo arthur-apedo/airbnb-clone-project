@@ -113,6 +113,9 @@ Caching: Use caching strategies to reduce database load and improve performance.
 ## API Security
 
 ## CI/CD Pipeline
+- Docker
+- Github Actions
+- Jenkins
 
 #### Additional Resources
 - System design architecture for hotel booking apps
