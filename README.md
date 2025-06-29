@@ -9,7 +9,7 @@
 - Review System: Allow users to leave reviews and ratings for properties.
 - Data Optimization: Ensure efficient data retrieval and storage through database optimizations.
 
-## 🛠️ Features Overview
+## 🛠️ Feature Breakdown
 1. API Documentation
 OpenAPI Standard: The backend APIs are documented using the OpenAPI standard to ensure clarity and ease of integration.
 Django REST Framework: Provides a comprehensive RESTful API for handling CRUD operations on user and property data.
@@ -53,6 +53,25 @@ Caching: Use caching strategies to reduce database load and improve performance.
 - REST API: Detailed documentation available through the OpenAPI standard, including endpoints for users, properties, bookings, and payments.
 - GraphQL API: Provides a flexible query language for retrieving and manipulating data.
 
+
+## Database Design
+### Entities Required
+#### Users
+-  id
+- name
+- createdAt
+- updatedAt
+#### Properties
+- id
+- name
+#### Bookings
+- id
+- name
+#### Payments
+- id
+- name
+
+
 ## 📌 Endpoints Overview
 ### REST API Endpoints
 #### Users
@@ -90,6 +109,10 @@ Caching: Use caching strategies to reduce database load and improve performance.
 - GET /reviews/{review_id}/ - Retrieve a specific review
 - PUT /reviews/{review_id}/ - Update a specific review
 - DELETE /reviews/{review_id}/ - Delete a specific review
+
+## API Security
+
+## CI/CD Pipeline
 
 #### Additional Resources
 - System design architecture for hotel booking apps
